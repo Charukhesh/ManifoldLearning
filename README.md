@@ -1,8 +1,5 @@
 # Exploring the Yeast Gene-Expression Landscape
 
-- **Author:** Charukhesh  
-- **Roll No:** AE22B028
-
 ## 📖 Project Overview
 
 This project explores the landscape of gene expression data from the Yeast dataset, focusing on the challenges of high-dimensional, multi-label biological data. The analysis leverages advanced manifold learning techniques, **t-SNE** and **Isomap** to visualize and interpret the structure, imperfections, and class overlaps within the data. The notebook demonstrates how these dimensionality reduction methods reveal both local and global patterns, providing insights into noisy labels, outliers, and the intrinsic complexity of the classification problem.
@@ -10,7 +7,7 @@ This project explores the landscape of gene expression data from the Yeast datas
 ## 📁 Repository Structure
 
 ```
-DA5401-assignment-5-Charukhesh/
+ManifoldLearning/
 │
 ├── main.ipynb
 ├── yeast_dataset/
@@ -41,8 +38,8 @@ pip install pandas numpy matplotlib scikit-learn
 ## How to Run This Project
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/Charukhesh/DA5401-assignment-5-Charukhesh.git
-    cd DA5401-assignment-5-Charukhesh
+    git clone https://github.com/Charukhesh/ManifoldLearning.git
+    cd ManifoldLearning
     ```
 
 2. **Dataset**
